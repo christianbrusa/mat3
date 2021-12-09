@@ -5,7 +5,7 @@
 
 function helloWorldAsync() {
 	const miPromesa = new Promise((resolve,reject) => {
-		reject ("Hola mundo!");
+		throw new Error ("Hola mundo!");
 	});
 
 	return miPromesa;
